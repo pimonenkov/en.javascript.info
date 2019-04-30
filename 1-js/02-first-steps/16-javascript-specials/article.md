@@ -103,7 +103,7 @@ More in: <info:variables> and <info:types>.
 We're using a browser as a working environment, so basic UI functions will be:
 
 [`prompt(question, [default])`](mdn:api/Window/prompt)
-: Ask a `question`, and return either what the visitor entered or `null` if they pressed "cancel".
+: Ask a `question`, and return either what the visitor entered or `null` if they clicked "cancel".
 
 [`confirm(question)`](mdn:api/Window/confirm)
 : Ask a `question` and suggest to choose between Ok and Cancel. The choice is returned as `true/false`.
@@ -238,7 +238,9 @@ We covered three ways to create a function in JavaScript:
     }
     ```
 
-2. Function Expression: the function in the context of an expression
+2. Function Ex
+
+ion: the function in the context of an expression
 
     ```js
     let sum = function(a, b) {
